@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  console.log('Added the console.log')
   res.json({ message: 'Welcome to my express app.' })
 })
 
